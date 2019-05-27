@@ -1,0 +1,5 @@
+name: 'Jalur Pendaftaran'
+type: module
+description: 'Jalur Pendaftaran'
+core: 8.x
+package: 'PPDB'

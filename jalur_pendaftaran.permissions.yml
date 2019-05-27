@@ -1,0 +1,19 @@
+add jalur pendaftaran entities:
+  title: 'Create new Jalur pendaftaran entities'
+
+administer jalur pendaftaran entities:
+  title: 'Administer Jalur pendaftaran entities'
+  description: 'Allow to access the administration form to configure Jalur pendaftaran entities.'
+  restrict access: true
+
+delete jalur pendaftaran entities:
+  title: 'Delete Jalur pendaftaran entities'
+
+edit jalur pendaftaran entities:
+  title: 'Edit Jalur pendaftaran entities'
+
+view published jalur pendaftaran entities:
+  title: 'View published Jalur pendaftaran entities'
+
+view unpublished jalur pendaftaran entities:
+  title: 'View unpublished Jalur pendaftaran entities'

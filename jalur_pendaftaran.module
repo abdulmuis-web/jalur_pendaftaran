@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains jalur_pendaftaran.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jalur_pendaftaran_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the jalur_pendaftaran module.
+    case 'help.page.jalur_pendaftaran':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Jalur Pendaftaran') . '</p>';
+      return $output;
+
+    default:
+  }
+}

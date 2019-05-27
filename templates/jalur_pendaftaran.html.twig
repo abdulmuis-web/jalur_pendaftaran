@@ -1,0 +1,22 @@
+{#
+/**
+ * @file jalur_pendaftaran.html.twig
+ * Default theme implementation to present Jalur pendaftaran data.
+ *
+ * This template is used when viewing Jalur pendaftaran pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_jalur_pendaftaran()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('jalur_pendaftaran') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

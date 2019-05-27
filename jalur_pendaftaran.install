@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\jalur_pendaftaran\Entity\JalurPendaftaran;
+
+function jalur_pendaftaran_install() {
+  
+  $entries = [
+	['id' => '10', 'name' => 'Jalur Terpadu'],
+	['id' => '20', 'name' => 'Jalur Umum'],
+	['id' => '30', 'name' => 'Jalur Prestasi'],
+	['id' => '40', 'name' => 'Jalur SKTM'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $jalur_pendaftaran = JalurPendaftaran::create($entry);
+	
+	$jalur_pendaftaran->save();
+  }
+}

@@ -1,0 +1,6 @@
+entity.jalur_pendaftaran.add_form:
+  route_name: entity.jalur_pendaftaran.add_form
+  title: 'Add Jalur pendaftaran'
+  appears_on:
+    - entity.jalur_pendaftaran.collection
+    - entity.jalur_pendaftaran.canonical

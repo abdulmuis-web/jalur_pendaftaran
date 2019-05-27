@@ -1,0 +1,14 @@
+{
+  "name": "drupal/jalur_pendaftaran",
+  "type": "drupal-module",
+  "description": "Jalur Pendaftaran",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/jalur_pendaftaran",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jalur_pendaftaran",
+    "source": "http://cgit.drupalcode.org/jalur_pendaftaran"
+  },
+  "require": { }
+}

@@ -1,0 +1,14 @@
+
+# Jalur pendaftaran menu items definition
+entity.jalur_pendaftaran.collection:
+  title: 'Jalur pendaftaran list'
+  route_name: entity.jalur_pendaftaran.collection
+  description: 'List Jalur pendaftaran entities'
+  parent: system.admin_structure
+  weight: 100
+
+jalur_pendaftaran.admin.structure.settings:
+  title: 'Jalur pendaftaran settings'
+  description: 'Configure Jalur pendaftaran entities'
+  route_name: jalur_pendaftaran.settings
+  parent: system.admin_structure
